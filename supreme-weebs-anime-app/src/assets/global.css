@@ -1,0 +1,11 @@
+body,html {
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(street_hd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    /* not sure if smooth will break anything */
+}
+
