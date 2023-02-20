@@ -90,7 +90,7 @@ export default {
     },
     created:
         function() {
-            let api_endpoint = "https://api.jikan.moe/v3/search/anime?q=&order_by=members&sort=desc&page=1"
+            let api_endpoint = "https://api.jikan.moe/v4/search/anime?q=&order_by=members&sort=desc&page=1"
             axios.get(api_endpoint)
             .then(response => {
                 let counter = 0

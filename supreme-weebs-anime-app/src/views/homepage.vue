@@ -613,7 +613,7 @@ export default {
     },
     created:
         function() {
-            let api_endpoint = "https://api.jikan.moe/v3/search/anime?q=&order_by=members&sort=desc&page=1"
+            let api_endpoint = "https://api.jikan.moe/v4/search/anime?q=&order_by=members&sort=desc&page=1"
             axios.get(api_endpoint)
             .then(response => {
                 let counter = 0
@@ -651,7 +651,7 @@ export default {
                 this.fav_genre = response
             )
             await acc
-            let api_reco = "https://api.jikan.moe/v3/genre/anime/" + this.fav_genre + "/1"
+            let api_reco = "https://api.jikan.moe/v4/genre/anime/" + this.fav_genre + "/1"
             console.log("THIS IS MY FAV GENRE "+ this.fav_genre)
             axios.get(api_reco)
             .then(response => {
@@ -691,7 +691,7 @@ export default {
                 this.search3 = []
                 this.search4 = []
                 this.search5 = []
-                let api_search = `https://api.jikan.moe/v3/search/anime?q=`
+                let api_search = `https://api.jikan.moe/v4/search/anime?q=`
                 api_search += this.search_query
                 console.log(api_search)
                 await axios.get(api_search)
@@ -717,7 +717,7 @@ export default {
                         this.search5.push(anime)
                     }
                     counter3 ++
-                    this.api_search = `https://api.jikan.moe/v3/search/anime?q=`
+                    this.api_search = `https://api.jikan.moe/v4/search/anime?q=`
                     this.search_query = ""
                     }
                 })
@@ -731,7 +731,7 @@ export default {
             //     this.searchbygenre3 = []
             //     this.searchbygenre4 = []
             //     this.searchbygenre5 = []
-            //     let api_genre = "https://api.jikan.moe/v3/genre/anime/" + this.search_genre + "/1"
+            //     let api_genre = "https://api.jikan.moe/v4/genre/anime/" + this.search_genre + "/1"
             //     await axios.get(api_genre)
             //     .then((response) => {
             //         let counter4 = 0
@@ -755,7 +755,7 @@ export default {
             //             this.searchbygenre5.push(anime)
             //         }
             //         counter4 ++
-            //         this.api_genre = "https://api.jikan.moe/v3/genre/anime/"
+            //         this.api_genre = "https://api.jikan.moe/v4/genre/anime/"
             //         this.search_genre = ""
             //         console.log(this.searchbygenre1)
             //         }
@@ -765,7 +765,7 @@ export default {
             // }
         async axios_fav_wish_data(id){
             let mal_id = id.toString()
-            let api_endpoint = `https://api.jikan.moe/v3/anime/` + mal_id
+            let api_endpoint = `https://api.jikan.moe/v4/anime/` + mal_id
             let list_genres = []
             await axios.get(api_endpoint)
             .then(response => {

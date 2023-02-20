@@ -191,7 +191,7 @@ export default {
     },
     // created:
     //     function() {
-    //         let api = "https://api.jikan.moe/v3/search/anime?q="
+    //         let api = "https://api.jikan.moe/v4/search/anime?q="
     //         for ( anime in this.friend)
     //     },
     methods: {
@@ -207,9 +207,9 @@ export default {
         },
         friend_favs() {
             console.log("fuck ur mother")
-            let api = `https://api.jikan.moe/v3/anime/`
+            let api = `https://api.jikan.moe/v4/anime/`
             for ( let data of this.friend_fav ) {
-                api = `https://api.jikan.moe/v3/anime/`
+                api = `https://api.jikan.moe/v4/anime/`
                 let anime_id = data.name_anime.toString()
                 // console.log(anime_id)
                 api += anime_id
@@ -228,9 +228,9 @@ export default {
             console.log(this.fav_list)
         },
         friend_wish() {
-            let api = `https://api.jikan.moe/v3/anime/`
+            let api = `https://api.jikan.moe/v4/anime/`
             for ( let data of this.friend_wishlist ) {
-                api = `https://api.jikan.moe/v3/anime/`
+                api = `https://api.jikan.moe/v4/anime/`
                 let anime_id = data.name_anime.toString()
                 api += anime_id
                 axios.get(api)

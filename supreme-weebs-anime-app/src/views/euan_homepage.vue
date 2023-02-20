@@ -50,7 +50,7 @@ export default {
 	// 	const search_query = ref("");
 	// 	const animelist = ref([]);
 	// 	const HandleSearch = async () => {
-	// 		animelist.value = await fetch(`https://api.jikan.moe/v3/search/anime?q=${search_query.value}`)
+	// 		animelist.value = await fetch(`https://api.jikan.moe/v4/search/anime?q=${search_query.value}`)
 	// 			.then(res => res.json())
 	// 			.then(data => data.results);
 	// 		search_query.value = "";
@@ -71,15 +71,15 @@ export default {
 	return{
 		search_query: "",
 		animelist: [],
-		API_URL: `https://api.jikan.moe/v3/search/anime?q=`,
-		popularity_URL: `https://api.jikan.moe/v3/search/anime?q=&order_by=members&sort=desc&page=1`,
+		API_URL: `https://api.jikan.moe/v4/search/anime?q=`,
+		popularity_URL: `https://api.jikan.moe/v4/search/anime?q=&order_by=members&sort=desc&page=1`,
 		popularlist:[],
 		}
 	},
 
 	created: 
 		function() {
-		let api_endpoint = "https://api.jikan.moe/v3/search/anime?q=&order_by=members&sort=desc&page=1"
+		let api_endpoint = "https://api.jikan.moe/v4/search/anime?q=&order_by=members&sort=desc&page=1"
 		axios.get(api_endpoint)
 		.then(response=> {
 			console.log( response.data.results )
@@ -109,7 +109,7 @@ export default {
 		.then((response)=>{
 			console.log(response.data.results)
 			this.animelist = response.data.results
-			this.API_URL = `https://api.jikan.moe/v3/search/anime?q=`
+			this.API_URL = `https://api.jikan.moe/v4/search/anime?q=`
 			this.search_query = ''
 		})
 		.catch((error)=>

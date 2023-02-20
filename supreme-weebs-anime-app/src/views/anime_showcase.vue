@@ -44,7 +44,7 @@ export default {
     props:['id'],
     data() {
         return {
-            API_URL: `https://api.jikan.moe/v3/anime/`,
+            API_URL: `https://api.jikan.moe/v4/anime/`,
             mal_id: "",
             image_url: "",
             title: "",
