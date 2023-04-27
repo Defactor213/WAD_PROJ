@@ -64,15 +64,15 @@ export default {
             let api_endpoint = this.API_URL + this.mal_id
             axios.get(api_endpoint)
             .then(response => {
-                console.log(response.data)
-                this.image_url = response.data.image_url
-                this.title = response.data.title
-                this.description = response.data.synopsis
-                this.status = response.data.status
-                this.score = response.data.score
+                console.log(response.data.data)
+                this.image_url = response.data.data.images.jpg.image_url
+                this.title = response.data.data.title
+                this.description = response.data.data.synopsis
+                this.status = response.data.data.status
+                this.score = response.data.data.score
                 this.popularity_rank = response.data.rank
-                this.rating = response.data.rating
-                let dict_genres = response.data.genres
+                this.rating = response.data.data.rating
+                let dict_genres = response.data.data.genres
                 let list_genres = []
                 for ( let genre of dict_genres ) {
                     list_genres.push( genre.name )

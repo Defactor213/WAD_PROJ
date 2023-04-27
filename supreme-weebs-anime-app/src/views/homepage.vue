@@ -39,7 +39,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -61,7 +61,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -83,7 +83,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -105,7 +105,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -127,7 +127,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -178,7 +178,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -200,7 +200,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -222,7 +222,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -244,7 +244,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -266,7 +266,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -316,7 +316,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -338,7 +338,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -360,7 +360,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -382,7 +382,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -404,7 +404,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -454,7 +454,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -476,7 +476,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -498,7 +498,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -520,7 +520,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                         <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -542,7 +542,7 @@
                     :anime="anime"
                     :id="anime.mal_id">
                     <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
-                            <img class="card-img-top" :src="anime.image_url">
+                            <img class="card-img-top" :src="anime.images.jpg.image_url">
                         </router-link>
                         <div class="card-body">
                             <router-link :to="{name:'anime_showcase', params:{ id:anime.mal_id}}">
@@ -612,33 +612,42 @@ export default {
         }
     },
     created:
-        function() {
-            let api_endpoint = "https://api.jikan.moe/v4/search/anime?q=&order_by=members&sort=desc&page=1"
-            axios.get(api_endpoint)
-            .then(response => {
-                let counter = 0
-                let popularlist = response.data.results
-                for ( let anime of popularlist ) {
-                    // console.log(anime)
-                    // console.log(anime.image_url)
-                    if ( 0<= counter && counter <= 9 ) {
-                        this.popular1.push(anime)
+        async function() {
+            let api_endpoint = "https://api.jikan.moe/v4/top/anime"
+            var popularlist = 0
+            await axios.get("https://api.jikan.moe/v4/top/anime?page=2")
+                    .then(response=>{
+                        console.log("page 2 is running")
+                        popularlist = response.data.data
+                    })
+                    .catch( e => {console.log(e.message)})
+
+            await axios.get(api_endpoint)
+                .then(response => {
+                    let counter = 0
+                    popularlist = popularlist.concat(response.data.data)
+                    console.log(popularlist)
+                    for ( let anime of popularlist ) {
+                        //console.log(response)
+                        // console.log(anime.image_url)
+                        if ( 0<= counter && counter <= 9 ) {
+                            this.popular1.push(anime)
+                        }
+                        else if ( 10<= counter && counter <= 19 ) {
+                            this.popular2.push(anime)
+                        }
+                        else if ( 20<= counter && counter <= 29 ) {
+                            this.popular3.push(anime)
+                        }
+                        else if ( 30<= counter && counter <= 39 ) {
+                            this.popular4.push(anime)
+                        }
+                        else if ( 40<= counter && counter <= 49 ) {
+                            this.popular5.push(anime)
+                        }
+                        counter ++
+                        // console.log(counter)
                     }
-                    else if ( 10<= counter && counter <= 19 ) {
-                        this.popular2.push(anime)
-                    }
-                    else if ( 20<= counter && counter <= 29 ) {
-                        this.popular3.push(anime)
-                    }
-                    else if ( 30<= counter && counter <= 39 ) {
-                        this.popular4.push(anime)
-                    }
-                    else if ( 40<= counter && counter <= 49 ) {
-                        this.popular5.push(anime)
-                    }
-                    counter ++
-                    // console.log(counter)
-                }
                 
             })
             .catch(error => {
@@ -651,14 +660,15 @@ export default {
                 this.fav_genre = response
             )
             await acc
-            let api_reco = "https://api.jikan.moe/v4/genre/anime/" + this.fav_genre + "/1"
+            let api_reco = "https://api.jikan.moe/v4/anime?genres=" + this.fav_genre + "?min_score=50"
             console.log("THIS IS MY FAV GENRE "+ this.fav_genre)
             axios.get(api_reco)
             .then(response => {
                 let counter2 = 0
-                let recolist = response.data.anime
+                let recolist = response.data.data
+                console.log(recolist)
                 for ( let anime of recolist ) {
-                    // console.log(anime)
+                    //console.log(anime)
                     // console.log(anime.image_url)
                     if ( 0<= counter2 && counter2 <= 9 ) {
                         this.reco1.push(anime)
@@ -691,13 +701,13 @@ export default {
                 this.search3 = []
                 this.search4 = []
                 this.search5 = []
-                let api_search = `https://api.jikan.moe/v4/search/anime?q=`
+                let api_search = `https://api.jikan.moe/v4/anime?q=`
                 api_search += this.search_query
                 console.log(api_search)
                 await axios.get(api_search)
                 .then((response) => {
                     let counter3 = 0
-                    let searchresults = response.data.results
+                    let searchresults = response.data.data
                     for ( let anime of searchresults ) {
                     // console.log(anime)
                     // console.log(anime.image_url)
@@ -717,7 +727,7 @@ export default {
                         this.search5.push(anime)
                     }
                     counter3 ++
-                    this.api_search = `https://api.jikan.moe/v4/search/anime?q=`
+                    this.api_search = `https://api.jikan.moe/v4/anime?q=`
                     this.search_query = ""
                     }
                 })

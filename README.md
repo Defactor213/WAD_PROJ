@@ -27,7 +27,10 @@ In this project, we aim to build a web-based one-stop portal for all anime lover
 
 <!-- * Feel free to use diagrams and images to describe. For example, if you have a system architecture diagram, please place it here and describe it. If you have a business process diagram, you can also place it here and describe it. -->
 ## System architecture diagram ##
+<img src="/supreme-weebs-anime-app/src/assets/readme/SAD.jpg?raw=true">
+
 <img src="/supreme-weebs-anime-app/src/assets/readme/sitemap.jpg?raw=true">
+
 
 ## Figma ##
 https://www.figma.com/file/sPpn3gklow7pJmC0jxApFQ/Anime-Nation?node-id=0%3A1
@@ -72,7 +75,7 @@ Instructions for windows:
 13. lastly, run **firebase deploy**, and the app will be deployed at the Hosting URL!
 
 ## <img src="supreme-weebs-anime-app/src/assets/logo.jpg?raw=true" style="width:20px"> Deployed Site On Firebase ##
-* Want to visit our currently deployed website instead then click on https://supreme-weebs-anime.web.app
+* Want to visit our currently deployed website instead then click on https://supreme-weebs-tester-db.web.app
     * Login:nicholas@gmail.com
     * Password: nicholas123
 

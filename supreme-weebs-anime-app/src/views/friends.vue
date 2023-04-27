@@ -97,7 +97,7 @@
                                 <div class="d-inline container-fluid" v-for="data in fav_list" :key="data.name_anime">
                                     <div class="card" style="display:inline-block; background-color:rgba(0,0,0,0.6);">
                                         <router-link :to="{name:'anime_showcase', params:{ id:data.mal_id}}">
-                                            <img class="card-img-top" :src="data.image_url" alt="Card image cap">
+                                            <img class="card-img-top" :src="data.images.jpg.image_url" alt="Card image cap">
                                         </router-link>
                                         <div class="card-body">
                                             <router-link :to="{name:'anime_showcase', params:{ id:data.mal_id}}">
@@ -113,7 +113,7 @@
                                 <div class="d-inline container-fluid" v-for="data in wish_list" :key="data.name_anime">
                                     <div class="card" style="display:inline-block;background-color:rgba(0,0,0,0.6);">
                                         <router-link :to="{name:'anime_showcase', params:{ id:data.mal_id}}">
-                                            <img class="card-img-top" :src="data.image_url" alt="Card image cap">
+                                            <img class="card-img-top" :src="data.images.jpg.image_url" alt="Card image cap">
                                         </router-link>
                                         <div class="card-body">
                                             <router-link :to="{name:'anime_showcase', params:{ id:data.mal_id}}">
@@ -216,7 +216,7 @@ export default {
                 // console.log(api)
                 axios.get(api)
                 .then(response => {
-                    let fav_anime = response.data
+                    let fav_anime = response.data.data
                     console.log(fav_anime)
                     this.fav_list.push(fav_anime)
                 })
@@ -235,7 +235,7 @@ export default {
                 api += anime_id
                 axios.get(api)
                 .then(response => {
-                    let wish_anime = response.data
+                    let wish_anime = response.data.data
                     this.wish_list.push(wish_anime)
                 })
                 .catch(error => {
