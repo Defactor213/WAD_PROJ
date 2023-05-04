@@ -1,3 +1,9 @@
+## <img src="supreme-weebs-anime-app/src/assets/logo.jpg?raw=true" style="width:20px"> Deployed Site On Firebase ##
+* Want to visit our currently deployed website instead then click on https://supreme-weebs-tester-db.web.app
+    * Login:nicholas@gmail.com
+    * Password: nicholas123
+    
+    
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=454305&assignment_repo_type=GroupAssignmentRepo)
 # <img src="supreme-weebs-anime-app/src/assets/logo.jpg?raw=true" style="width:100px"> is216-project #
 
@@ -74,10 +80,7 @@ Instructions for windows:
     * File dist/index.html already exists. Overwrite? **No**    
 13. lastly, run **firebase deploy**, and the app will be deployed at the Hosting URL!
 
-## <img src="supreme-weebs-anime-app/src/assets/logo.jpg?raw=true" style="width:20px"> Deployed Site On Firebase ##
-* Want to visit our currently deployed website instead then click on https://supreme-weebs-tester-db.web.app
-    * Login:nicholas@gmail.com
-    * Password: nicholas123
+
 
 ## <img src="supreme-weebs-anime-app/src/assets/logo.jpg?raw=true" style="width:20px"> How to Use Our Web Application (for Visitors to our Website) ##
 <!-- * Yay! Your website is READY for visitors!
